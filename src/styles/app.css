@@ -1,0 +1,56 @@
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* Navbar */
+.custom-navbar {
+  background: linear-gradient(to right, #141e30, #243b55);
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  border-radius: 10px;
+}
+
+.search-box {
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+/* Cards */
+.movie-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s;
+  background: #1e293b;
+}
+
+.movie-card img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+/* Detail Page */
+.detail-card {
+  display: flex;
+  gap: 20px;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.detail-card img {
+  width: 300px;
+  border-radius: 10px;
+}
